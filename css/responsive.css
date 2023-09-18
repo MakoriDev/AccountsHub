@@ -1,0 +1,40 @@
+/* Add this CSS to your existing styles */
+@media (max-width: 767px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .float {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .float i {
+        font-size: 20px;
+    }
+
+    .tab-content {
+        padding: 20px;
+    }
+
+    .testimonial-carousel .testimonial-item {
+        text-align: center;
+    }
+}
