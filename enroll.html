@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Online Learning Platform</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Header (You can customize this section) -->
+        <header class="bg-primary text-white text-center py-5">
+            <h1 class="display-4">Welcome to AccountsHub Learning Platform</h1>
+            <p class="lead">Unlock your potential with our professional training courses</p>
+            <a href="#registration" class="btn btn-lg btn-light" id="registerNowButton">Register Now</a>
+
+        </header>
+
+        <!-- Registration Section -->
+        <section id="registration" class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center mb-4">Register for Our Training Classes</h2>
+                    <!-- Add your registration form here -->
+                    <form>
+                        <!-- Form fields (Name, Email, etc.) -->
+                        <!-- Modal for Registration -->
+                        <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="username" class="form-label">Username</label>
+                                                <input type="text" class="form-control" id="username" required>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="password" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="password" required>
+                                            </div>
+                                            <a href="#" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"
+                                                onclick="openRegistrationModal()">Learn<i
+                                                    class="fa fa-arrow-right ms-3"></i></a>
+
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Free Study Resources Section -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mb-4">Free Study Resources</h2>
+                        <p>Access our collection of study materials to enhance your learning experience.</p>
+                        <a href="#study-resources" class="btn btn-primary">View Resources</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Study Resources Section -->
+        <section id="study-resources" class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center mb-4">Study Resources</h2>
+                    <!-- Add your study resources here (e.g., links, documents, videos) -->
+                </div>
+            </div>
+        </section>
+        <!-- View Resources Section -->
+        <section id="view-resources" class="container py-5">
+            <div class="row">
+                <!-- Post 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="/img/seg.jpg" class="card-img-top" alt="Post 1 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Remotasks Exams</h5>
+                            <p class="card-text">Learn the basics of Remotasks exams</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="/img/seg.jpg" class="card-img-top" alt="Post 2 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Transcription</h5>
+                            <p class="card-text">Learn the art of autonomous transcription</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="/img/com-logo-4.jpg" class="card-img-top" alt="Post 3 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Writing</h5>
+                            <p class="card-text">Learn how to open a writing account and land clients</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Post 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="/img/seg.jpg" class="card-img-top" alt="Post 4 Image">
+                        <div class="card-body">
+                            <h5 class="card-title"> Proxy and VPNs</h5>
+                            <p class="card-text">Learn how to Use Proxy Servers diligently</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .card-img-top {
+                height: 200px;
+                object-fit: cover;
+            }
+        </style>
+
+
+        <!-- Footer (You can customize this section) -->
+        <footer class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+            <div class="container py-5">
+                <!-- Add your footer content (Quick Links, Contact, Social Media, etc.) -->
+            </div>
+            <div class="container text-center">
+                <p>&copy; Online Learning Platform, All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function openRegistrationModal() {
+            var myModal = new bootstrap.Modal(document.getElementById('registrationModal'));
+            myModal.show();
+        }
+        document.getElementById('registerNowButton').addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent the default behavior of the link
+            openRegistrationModal(); // Call the function to open the registration modal
+        });
+
+    </script>
+
+
+    <!-- JavaScript Libraries and Custom Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Add your custom scripts here -->
+</body>
+
+</html>

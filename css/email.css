@@ -1,11 +1,10 @@
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     color: #444;
 }
-
 body {
     height: 100vh;
     display: flex;
@@ -13,24 +12,20 @@ body {
     justify-content: center;
     background-color: #34a8f0;
 }
-
 .container {
     background-color: white;
     border-radius: 5px;
     padding: 30px;
     width: 450px;
 }
-
 .container p {
     margin: 20px 0;
 }
-
 form div {
     display: flex;
     justify-content: space-between;
     gap: 5px;
 }
-
 span input {
     width: 100%;
     padding: 10px;
@@ -39,7 +34,6 @@ span input {
     border: none;
     outline: none;
 }
-
 textarea {
     width: 100%;
     padding: 10px;
@@ -48,7 +42,6 @@ textarea {
     border: none;
     outline: none;
 }
-
 button {
     background-color: #e53653;
     padding: 10px 30px;
@@ -57,7 +50,6 @@ button {
     border: none;
     margin-top: 20px;
 }
-
 button:hover {
     background-color: #a20d26;
     cursor: pointer;
